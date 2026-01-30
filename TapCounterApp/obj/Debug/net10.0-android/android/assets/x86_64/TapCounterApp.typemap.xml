@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="TapCounterApp" mvid="021c2c2788e84a54bf9b75820ebb8994">
+  <java-to-managed>
+    <entry java-name="crc64409a8476a983408c/MainActivity" managed-name="TapCounterApp.MainActivity, TapCounterApp" managed-type-token-id="33554456" />
+    <entry java-name="crc64409a8476a983408c/MainApplication" managed-name="TapCounterApp.MainApplication, TapCounterApp" managed-type-token-id="33554457" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc64409a8476a983408c/MainActivity" managed-name="TapCounterApp.MainActivity, TapCounterApp" managed-type-token-id="33554456" />
+    <entry java-name="crc64409a8476a983408c/MainApplication" managed-name="TapCounterApp.MainApplication, TapCounterApp" managed-type-token-id="33554457" />
+  </managed-to-java>
+</api>
