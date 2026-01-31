@@ -10,9 +10,8 @@
 
     <ShellContent
         Title="Dashboard"
-        Icon="{StaticResource IconDashboard}"
-        ContentTemplate="{DataTemplate pages:MainPage}"
-        Route="main" />
+        Route="main"
+        ContentTemplate="{DataTemplate pages:MainPage}" />
 
     <ShellContent
         Title="Projects"

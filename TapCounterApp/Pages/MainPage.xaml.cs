@@ -1,4 +1,4 @@
-﻿namespace TapCounterApp;
+﻿namespace TapCounterApp.Pages;
 
 public partial class MainPage : ContentPage
 {
@@ -12,22 +12,13 @@ public partial class MainPage : ContentPage
     private void OnTapButtonClicked(object sender, EventArgs e)
     {
         _count++;
-
-        // Update the big count label
         CountLabel.Text = _count.ToString();
 
-        // Update status label
         if (_count == 1)
-        {
             StatusLabel.Text = "First tap!";
-        }
         else if (_count < 10)
-        {
-            StatusLabel.Text = $"You’ve tapped {_count} times.";
-        }
+            StatusLabel.Text = $"You've tapped {_count} times.";
         else
-        {
-            StatusLabel.Text = "You’ve tapped 10 or more times!";
-        }
+            StatusLabel.Text = "You've tapped 10 or more times!";
     }
 }
